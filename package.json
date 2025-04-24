@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://M-K-B.github.io/parkingAdminDashboard",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

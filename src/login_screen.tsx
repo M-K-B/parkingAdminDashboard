@@ -1,12 +1,14 @@
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "./App.tsx";
 import type { Database } from "../database.types.ts";
 
-//code
-const supabase = createClient<Database>(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_KEY
-);
-//code
+
+
+
+//const url =  import.meta.env.VITE_SUPABASE_URL;
+//const key = import.meta.env.VITE_SUPABASE_KEY;
+//console.log(url)
+
+
 interface Props {
   onLogin: () => void;
 }
