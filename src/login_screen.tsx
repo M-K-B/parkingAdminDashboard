@@ -10,7 +10,7 @@ const supabase = createClient<Database>(
 interface Props {
   onLogin: () => void;
 }
-
+//code
 export default function LoginScreen({ onLogin }: Props) {
   const handleGoogleLogin = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
