@@ -14,7 +14,7 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_KEY;
 //code
 export const supabase = createClient(`${supabaseUrl}`, `${supabaseKey}`);
-
+//code
 const mapContainerStyle = {
   width: "75vw",
   height: "100vh",
