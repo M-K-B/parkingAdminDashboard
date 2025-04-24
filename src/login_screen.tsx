@@ -1,5 +1,5 @@
 import { supabase } from "./App.tsx";
-import type { Database } from "../database.types.ts";
+
 
 
 
