@@ -8,7 +8,7 @@ import { supabase } from "./App.tsx";
 //const key = import.meta.env.VITE_SUPABASE_KEY;
 //console.log(url)
 
-
+//code
 interface Props {
   onLogin: () => void;
 }
