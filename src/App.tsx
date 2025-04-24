@@ -12,7 +12,7 @@ import LoginScreen from "./login_screen.tsx";
 type ParkingData = Database["public"]["Tables"]["parking_restrictions"]["Row"];
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_KEY;
-
+//code
 export const supabase = createClient(`${supabaseUrl}`, `${supabaseKey}`);
 
 const mapContainerStyle = {
