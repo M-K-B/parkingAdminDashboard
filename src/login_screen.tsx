@@ -21,7 +21,7 @@ export default function LoginScreen({ onLogin }: Props) {
     });
     if (!error) onLogin();
   };
-
+//code
   return (
     <div style={{ padding: "2rem", maxWidth: "400px", margin: "10vh auto", border: "1px solid #ccc", borderRadius: "8px" }}>
       <h2>Admin Login</h2>
