@@ -7,7 +7,7 @@ import {
 } from "@react-google-maps/api";
 import type { Database } from "../database.types.ts";
 import LoginScreen from "./login_screen.tsx";
-
+//code
 
 type ParkingData = Database["public"]["Tables"]["parking_restrictions"]["Row"];
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
